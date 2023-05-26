@@ -3,6 +3,13 @@
  * Copyright (c) 2012 - 2017 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
  */
+
+:root {
+    --sneko-color-1: #1f1f1f;
+    --sneko-color-2: #181818;
+    --sneko-color-3: #121212;
+}
+
 .pl-c {
     color: #959da5
 }
@@ -138,12 +145,12 @@ main {
     --color-border-secondary: #21262d;
     --color-border-tertiary: hsla(215, 8%, 47%, 0.4);
     --color-border-info: #1f6feb;
-    --color-bg-canvas: #0d1117;
-    --color-bg-canvas-inset: #010409;
-    --color-bg-primary: #0d1117;
-    --color-bg-secondary: #161b22;
-    --color-bg-tertiary: #161b22;
-    --color-bg-overlay: #161b22;
+    --color-bg-canvas: var(--sneko-color-2);
+    --color-bg-canvas-inset: var(--sneko-color-3);
+    --color-bg-primary: var(--sneko-color-2);
+    --color-bg-secondary: var(--sneko-color-1);
+    --color-bg-tertiary: var(--sneko-color-1);
+    --color-bg-overlay: var(--sneko-color-1);
     --color-bg-info: rgba(56, 139, 253, 0.15);
     --color-state-focus-border: #1f6feb;
     --color-state-focus-shadow: 0 0 0 3px #0c2d6b;
@@ -156,8 +163,8 @@ main {
     --color-markdown-code-bg: hsla(215, 8%, 47%, 0.4);
     --color-hidden-text-expander-bg: hsla(215, 8%, 47%, 0.4);
     --color-label-border: #30363d;
-    --color-input-bg: #0d1117;
-    --color-input-contrast-bg: #010409;
+    --color-input-bg: var(--sneko-color-2);
+    --color-input-contrast-bg: var(--sneko-color-3);
     --color-input-border: #30363d;
     --color-diff-blob-num-text: #8b949e;
     --color-diff-blob-num-hover-text: #c9d1d9;
@@ -183,7 +190,7 @@ main {
     --color-btn-primary-disabled-bg: rgba(35, 134, 54, 0.6);
     --color-btn-primary-disabled-border: rgba(240, 246, 252, 0.1);
     --color-scale-gray-7: #21262d;
-    --color-scale-gray-8: #161b22;
+    --color-scale-gray-8: var(--sneko-color-1);
     --color-scale-blue-8: #0c2d6b;
     --color-social-reaction-border: var(--color-scale-blue-8);
     --color-social-reaction-bg: var(--color-scale-gray-8);
